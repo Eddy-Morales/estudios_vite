@@ -3,7 +3,8 @@ import DatosPersonales from './components/DatosPersonales';
 import EstudiosRealizados from './components/EstudiosRealizados';
 import Herramientas from './components/Herramientas';
 import GaleriaDeportes from './components/GaleriaDeportes';
-import './components/App.css';
+import './App.css';
+import FormularioRegistro from './components/FormularioRegistro';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <EstudiosRealizados />
       <Herramientas />
       <GaleriaDeportes />
+      <h2>formulario</h2>
+      <FormularioRegistro />
     </div>
   );
 }
